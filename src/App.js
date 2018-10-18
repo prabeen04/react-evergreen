@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
+import { ApplicationWrapper } from "./components/UI/Layouts";
 
 class App extends Component {
   render() {
     return (
-      <div>
-      </div>
+      <ApplicationWrapper>
+        <h3>Evergreen UI</h3>
+      </ApplicationWrapper>
     );
   }
 }
