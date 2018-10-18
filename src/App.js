@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import { ApplicationWrapper } from "./components/UI/Layouts";
+import { ApplicationWrapper, Flexbox } from "./components/UI/Layouts";
 
 class App extends Component {
   render() {
     return (
       <ApplicationWrapper>
-        <h3>Evergreen UI</h3>
+        <Flexbox>
+          <h3>Evergreen UI</h3>
+          <h3>Latest Library</h3>
+        </Flexbox>
       </ApplicationWrapper>
     );
   }
